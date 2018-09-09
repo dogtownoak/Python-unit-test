@@ -1,11 +1,13 @@
 """ unit tests for math_functions """
 
 import unittest
-import math_functions
+from functions import math_functions
 
-class KnownValues(unittest.TestCase):
+class KnowledgeBase(unittest.TestCase):
     """ unit test class for math_funcitons) """
 
+    # Testing Area of Circle
+    # 
     def test_area_of_circle_10_radius(self):
         """ area_of_circle(10) """
         # Captue the results of the function
@@ -41,7 +43,9 @@ class KnownValues(unittest.TestCase):
         expected = None
         self.assertEqual(expected, result)
 
-
+    #
+    # Testing Surface Area of Cube
+    #
     # Test surface_area_of_cube() 6 * side ** 2
     def test_surface_area_of_cube_6(self):
         """ surface_area_of_cube(6)"""
