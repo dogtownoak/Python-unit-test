@@ -4,4 +4,4 @@ python:
   - "3.6.5"
   - "3.7-dev"
 
-script:  export PYTHONPATH=$HOME/dirWithScripts/:$PYTHONPATH; && python3 tests/test_math_functions.py
+script:  export PYTHONPATH=$HOME/dirWithScripts/:$PYTHONPATH;  python3 tests/test_math_functions.py
