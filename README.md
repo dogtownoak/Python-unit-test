@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/justincastilla/python-unit-testing.svg?branch=master)](https://travis-ci.org/justincastilla/python-unit-testing)
 
-<img src=assets/tests.png width= 400px>
+<img src=assets/Tests.png width= 400px>
 
 ## Unit tests
 Tests can be broadly split into two categories: **Unit Tests** and **Integration Tests**. Both are important.
