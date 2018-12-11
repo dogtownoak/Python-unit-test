@@ -10,7 +10,7 @@ Tests can be broadly split into two categories: **Unit Tests** and **Integration
 In **Unit Tests**, which we'll talk about today, we try to isolate each component (or class/function) and test it on its own. We separate our Controllers from our Views and test the boundary of its interface.
 **Unit tests** tend to run faster because we're testing small components. By isolatign components from each other to test them we're forced to write better object-oriented code. The functionality can't blur across several modules without us having to do a lot of work in the test to stub that out.
 
-<img src=assets/unittestexample.png width= 800px>
+<img src=assets/unittestexample.png width= 500px>
 
 ## Integration Tests
 In **Integration Tests** we combine components together, sometimes just a few and other times the entire system. In Django, integration tests often drive the server and test the entirety of the system--the full request response cycle. These tests tend to take much longer to run. They test the cohesion of components and that the interface between them is behaving as we expect.
@@ -59,7 +59,7 @@ python:
 
 
 Here is an example screenshot of a successful build report on **Travis CI**:
-<img src="assets/buildprogress.png" width=500px>
+<img src="assets/buildprogress.png" width=700px>
 
 
 ## Unit Testing with Python
