@@ -59,7 +59,7 @@ python:
 
 
 Here is an example screenshot of a successful build report on **Travis CI**:
-<img src="assets/TravisBuild.png">
+<img src="assets/TravisBuild1.png">
 
 
 ## Unit Testing with Python
