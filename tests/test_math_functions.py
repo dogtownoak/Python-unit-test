@@ -11,8 +11,11 @@ class KnowledgeBase(unittest.TestCase):
         # Captue the results of the function
         result = math_functions.area_of_circle(1)
         # Check for exptected output
-        expected = 1
+        expected = 3.14
         self.assertEqual(expected, result)
+    
+    def test_surface_area_cube_sanityu2(self)
+        """ area_of_
 
 
 if __name__ == '__main__':
