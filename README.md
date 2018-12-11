@@ -2,20 +2,28 @@
 
 [![Build Status](https://travis-ci.org/justincastilla/python-unit-testing.svg?branch=master)](https://travis-ci.org/justincastilla/python-unit-testing)
 
+<img src=assets/tests.png width= 200px>
+
 ## Unit tests
 Tests can be broadly split into two categories: **Unit Tests** and **Integration Tests**. Both are important.
 
 In **Unit Tests**, which we'll talk about today, we try to isolate each component (or class/function) and test it on its own. We separate our Controllers from our Views and test the boundary of its interface.
 **Unit tests** tend to run faster because we're testing small components. By isolatign components from each other to test them we're forced to write better object-oriented code. The functionality can't blur across several modules without us having to do a lot of work in the test to stub that out.
 
+<img src=assets/unittestexample.png width= 800px>
+
 ## Integration Tests
 In **Integration Tests** we combine components together, sometimes just a few and other times the entire system. In Django, integration tests often drive the server and test the entirety of the system--the full request response cycle. These tests tend to take much longer to run. They test the cohesion of components and that the interface between them is behaving as we expect.
 
 Both types of tests are important. There are also other types but they can generally be broken down into finer grained versions of the above. Together the Unit and Integration tests you write become part of your test suite.
 
+<img src=assets/travis.png width= 500px>
+
 ## How are tests used in industry?
 
 Many companies require that all the code they develop comes with tests. Often before code can be depoloyed, or merged into master, the entire test suite is run and all tests must pass.
+
+<img src=assets/fullFlowexample.png width= 500px>
 
 ## Continuous Integration 
 
