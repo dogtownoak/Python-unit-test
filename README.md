@@ -175,5 +175,5 @@ if __name__ == '__main__':
 9. Now run the test file to see our first fail or pass!
 
 ```bash
-python3 tests/test_math_functions
+python3 tests/test_math_functions.py
 ```
