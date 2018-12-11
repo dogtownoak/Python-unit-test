@@ -1,6 +1,6 @@
 # <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> Python Unit Testing
 
-[![Build Status](https://travis-ci.org/justincastilla/python-unit-testing.svg?branch=master)](https://travis-ci.org/justincastilla/python-unit-testing)
+[![Build Status](https://travis-ci.org/DaltonHart/python-unit-testing.svg?branch=master)](https://travis-ci.org/DaltonHart/python-unit-testing)
 
 <img src=assets/Tests.png width= 400px>
 
@@ -59,7 +59,7 @@ python:
 
 
 Here is an example screenshot of a successful build report on **Travis CI**:
-<img src="assets/TravisBuild1.png">
+<img src="assets/travisbuild.png">
 
 
 ## Unit Testing with Python
